@@ -1,0 +1,13 @@
+{
+    "folders": [
+        {
+            "path": "../../repositories/web_design_sandbox"
+        },
+        {
+            "path": "../vishalcoelho.github.io"
+        }
+    ],
+    "settings": {
+        "liveServer.settings.multiRootWorkspaceName": "web_design_sandbox"
+    }
+}
