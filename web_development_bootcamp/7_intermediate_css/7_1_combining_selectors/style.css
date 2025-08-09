@@ -1,0 +1,25 @@
+/* Multiple selectors */
+h1,
+h2 {
+    color: blueviolet;
+}
+
+/* Using a child-selector '>' */
+.box>p {
+    color: firebrick;
+}
+
+/* Descendant selector */
+.box li {
+    color: blue;
+}
+
+/* chaining selector */
+li.done {
+    color: seagreen;
+}
+
+/* can also use child selector: ul>p.done */
+ul p.done {
+    font-size: 0.5rem;
+}

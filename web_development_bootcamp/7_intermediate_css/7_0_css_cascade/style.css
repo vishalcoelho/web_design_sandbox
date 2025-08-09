@@ -1,0 +1,26 @@
+/* Don't change the existing CSS. */
+
+.box {
+    background-color: blue;
+    padding: 10px;
+}
+
+p {
+    color: yellow;
+    margin: 0;
+    padding: 0;
+}
+
+#outer-box {
+    background-color: purple;
+    /* No need to set padding as this id share style with the box class, which has padding */
+}
+
+.inner-box {
+    background-color: red;
+    /* No need to set padding as this class share style with the box class, which has padding */
+}
+
+.white-text {
+    color: white;
+}
